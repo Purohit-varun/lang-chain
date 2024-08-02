@@ -31,4 +31,6 @@ chain = LLMChain(
 while True:
     question = input("Enter your query >> ")
     result = chain({"question": question})
-    print(result["text"])
+    print(result)
+
+console.log("this is testing merge")
