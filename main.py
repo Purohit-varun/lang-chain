@@ -28,9 +28,11 @@ chain = LLMChain(
     memory=memory
 )
 
+print("this is testing merge")
+
 while True:
     question = input("Enter your query >> ")
     result = chain({"question": question})
     print(result)
 
-console.log("this is testing merge")
+
