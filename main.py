@@ -28,6 +28,8 @@ chain = LLMChain(
     memory=memory
 )
 
+print("this is new print statement")
+
 while True:
     question = input("Enter your query >> ")
     result = chain({"question": question})
